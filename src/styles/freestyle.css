@@ -1,0 +1,56 @@
+:root {
+    --clr-main: #D29A9A;
+    --clr-secondary: #D56868;
+    --clr-third: #DA93A8;
+    --clr-alt: #492E5D;
+    --clr-dark: #000000;
+    --clr-light: #ffffff;
+    --clr-bg: #c8b4bc;
+
+
+    /* sizing  */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.75rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
+.custom-order {
+    border: 5px solid sandybrown;
+    padding: 1rem;
+    height: 100dvh;
+    text-align: center;
+}
+
+.custom-description {
+    border: 5px solid royalblue;
+
+}
+
+.custom-description p {
+    text-align: center;
+    border: 5px solid fuchsia;
+}
+
+.custom-form {
+    border: 5px solid seagreen;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+textarea {
+    width: auto;
+}

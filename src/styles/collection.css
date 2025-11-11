@@ -1,0 +1,48 @@
+.shop-page {
+    border: 5px solid orchid;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.shop-page p {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+
+.shop-collection-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+    border: 5px solid orangered;
+    padding-top: 1rem;
+}
+
+.options img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid lawngreen;
+    cursor: pointer;
+}
+
+.options img:hover {
+    transform: translateY(-1rem);
+    isolation: isolate;
+    transition: transform 0.8s, box-shadow 0.5s;
+    box-shadow: 1px 1px 50px var(--clr-secondary);
+}
+
+.options-description {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid peru;
+}
