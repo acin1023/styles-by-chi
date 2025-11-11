@@ -24,13 +24,13 @@
 }
 
 .hero-button {
-    background-color: transparent;
-    color: var(--clr-secondary);
+    background-color: var(--clr-secondary);
+    color: var(--clr-light);
+    border: none;
 }
 
 .hero-button:hover {
-    background-color: var(--clr-secondary);
-    color: var(--clr-light);
+    background-color: transparent;
+    color: var(--clr-secondary);
     transition: 0.5s;
-    border: none;
 }
