@@ -1,5 +1,5 @@
 .shop-page {
-    border: 5px solid orchid;
+    /* border: 5px solid orchid; */
     margin: auto;
     text-align: center;
     width: 90%;
@@ -19,9 +19,9 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     margin-bottom: 0.2rem;
-    border: 5px solid orangered;
+    /* border: 5px solid orangered; */
     padding-top: 1rem;
 }
 
@@ -30,19 +30,19 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    border: 5px solid lawngreen;
+    /* border: 5px solid lawngreen; */
     cursor: pointer;
 }
 
 .options img:hover {
     transform: translateY(-1rem);
     isolation: isolate;
-    transition: transform 0.8s, box-shadow 0.5s;
+    transition: transform 0.3s, box-shadow 0.3s;
     box-shadow: 1px 1px 50px var(--clr-secondary);
 }
 
 .options-description {
     display: flex;
-    justify-content: space-between;
-    border: 5px solid peru;
+    justify-content: space-evenly;
+    /* border: 5px solid peru; */
 }
