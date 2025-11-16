@@ -37,11 +37,10 @@
 html,
 body {
     scroll-behavior: smooth;
-    /* overflow: scroll; */
     margin: 0;
     padding: 0;
     height: 100dvh;
-    /* background-color: var(--clr-bg); */
+    position: relative;
     color: var(--clr-dark);
     font-family: "MuseoModerno", "Mynerve", sans-serif;
 }
