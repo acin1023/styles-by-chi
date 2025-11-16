@@ -29,7 +29,7 @@
 
 
 .custom-section {
-    /* border: 5px solid sandybrown; */
+    border: 5px solid sandybrown;
     background-color: var(--clr-bg);
     padding: 0.5rem;
     height: 100dvh;

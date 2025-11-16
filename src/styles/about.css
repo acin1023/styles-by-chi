@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/src/images/alt\ bg.jpeg);
+    background-image: url(/src/images/alt\ bg.jpeg);
     position: relative;
     isolation: isolate;
     background-size: cover;
