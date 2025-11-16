@@ -27,7 +27,7 @@
 }
 
 .about-section {
-    border: 2px solid yellow;
+    border: 2px solid var(--clr-secondary);
     height: 100dvh;
     width: 100%;
     display: flex;

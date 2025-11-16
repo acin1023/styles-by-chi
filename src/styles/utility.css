@@ -46,6 +46,7 @@
     --clr-light: #ffffff;
     --clr-bg: #FFF3F8; */
 
+
 .nav-container {
     /* border: 5px solid purple; */
     display: flex;
@@ -53,8 +54,7 @@
     align-items: center;
     position: sticky;
     top: 0;
-    /* margin: 0;
-    padding: 0; */
+
 }
 
 .nav-list {
