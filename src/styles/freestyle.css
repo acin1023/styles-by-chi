@@ -79,3 +79,9 @@
     left: 40%;
     margin-top: .5rem;
 }
+
+.submit-btn:hover {
+    background-color: var(--clr-secondary);
+    color: var(--clr-light);
+    border: none;
+}
