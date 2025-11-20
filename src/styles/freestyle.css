@@ -29,20 +29,18 @@
 
 
 .custom-section {
-    border: 5px solid sandybrown;
+    /* border: 5px solid sandybrown; */
     background-color: var(--clr-bg);
-    padding: 0.5rem;
+    padding: .5rem;
     height: 100dvh;
     text-align: center;
     justify-content: center;
-
-
 }
 
 
 .custom-description p {
-    text-align: center;
     /* border: 5px solid fuchsia; */
+    text-align: center;
     width: 50%;
     position: relative;
     right: -25%;
@@ -83,5 +81,5 @@
 .submit-btn:hover {
     background-color: var(--clr-secondary);
     color: var(--clr-light);
-    border: none;
+    border: 2px solid var(--clr-light);
 }
