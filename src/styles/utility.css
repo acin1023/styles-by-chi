@@ -59,23 +59,23 @@
 
 
 .logo-container {
+    /* border: 2px solid orangered; */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
     margin-left: 0.5rem;
-    /* border: 2px solid orangered; */
 
 }
 
 .logo-heading {
-    font-size: var(--size-4xl);
-    font-family: "Mynerve", sans-serif;
     /* border: 2px solid orangered; */
+    font-size: var(--size-2xl);
+    font-family: "Mynerve", sans-serif;
 }
 
 .logo-header {
-    width: 48px;
+    width: 40px;
 }
 
 

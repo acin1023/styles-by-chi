@@ -6,22 +6,26 @@
     height: 100vh;
 }
 
+
+.shop-page h1 {
+    margin-top: 4rem;
+}
+
 .shop-page p {
     width: 50%;
-    margin: auto;
+    margin: 2rem auto;
 
 }
 
 
 .shop-collection-container {
+    /* border: 5px solid orangered; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
     justify-content: center;
     align-items: center;
     gap: 1rem;
-
-    /* border: 5px solid orangered; */
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
 }
 
 .options img {
