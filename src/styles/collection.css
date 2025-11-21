@@ -99,15 +99,18 @@
         display: grid;
         grid-template-columns: repeat(2, 220px);
         margin: auto;
+
+
     }
 
     .options img {
-        width: 100%;
+        width: 70%;
+        /* border: 5px solid orangered; */
     }
 
     .options-description {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         font-size: var(--size-xs);
     }
 }
