@@ -1,3 +1,31 @@
+:root {
+    --clr-main: #D29A9A;
+    --clr-secondary: #D56868;
+    --clr-third: #DA93A8;
+    --clr-alt: #c7c1c1;
+    --clr-dark: #000000;
+    --clr-light: #ffffff;
+    --clr-bg: #c8b4bc;
+
+
+    /* sizing  */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.75rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+}
+
 .shop-page {
     /* border: 5px solid orchid; */
     /* margin: auto; */
@@ -49,3 +77,52 @@
     justify-content: space-between;
     /* border: 5px solid peru; */
 }
+
+/* Responsive Resizing */
+
+/* xs */
+@media (min-width: 320px) {
+    .shop-page h1 {
+        margin-top: 2rem;
+        font-size: var(--size-lg);
+    }
+
+    .shop-page p {
+        width: 70%;
+        margin: 1rem auto;
+        font-size: var(--size-sm);
+
+    }
+
+    .shop-collection-container {
+        /* border: 5px solid orangered; */
+        display: grid;
+        grid-template-columns: repeat(2, 220px);
+        margin: auto;
+    }
+
+    .options img {
+        width: 100%;
+    }
+
+    .options-description {
+        display: flex;
+        justify-content: space-between;
+        font-size: var(--size-xs);
+    }
+}
+
+/* sm  */
+/* @media (min-width: 375px) {} */
+
+/* md  */
+/* @media (min-width: 425px) {} */
+
+/* lg  */
+/* @media (min-width: 768px) {} */
+
+/* xl  */
+/* @media (min-width: 1024px) {} */
+
+/* 2xl  */
+/* @media (min-width: 1440px) {} */
