@@ -147,4 +147,5 @@
 .freestyle-button:hover {
     background-color: var(--clr-main);
     border: none;
+    box-shadow: 0 5px 10px var(--clr-dark);
 }
