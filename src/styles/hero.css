@@ -109,10 +109,40 @@
 /* @media (min-width: 425px) {} */
 
 /* lg  */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+
+    .logo-heading {
+        font-size: var(--size-2xl);
+
+    }
+
+    .logo-header {
+        width: 40px;
+    }
+
+    .nav-list {
+        font-weight: 600;
+        font-size: var(--size-sm);
+    }
+
+    .hero-button {
+        font-size: var(--size-sm);
+    }
+}
 
 /* xl  */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+
+    .nav-list {
+
+        font-size: var(--size-lg);
+    }
+
+    .hero-button {
+        font-size: var(--size-lg);
+
+    }
+}
 
 /* 2xl  */
 /* @media (min-width: 1440px) {} */

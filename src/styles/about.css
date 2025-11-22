@@ -82,11 +82,12 @@
 @media (min-width: 320px) {
     .about-right {
         width: 90%;
+        height: 85%;
         margin: auto;
     }
 
     .about-right h1 {
-        font-size: var(--size-lg);
+        font-size: var(--size-base);
     }
 
     .about-right p {
@@ -94,7 +95,7 @@
     }
 
     .about-input {
-        padding: .4rem .4rem;
+        padding: .4rem .7rem;
         font-size: var(--size-sm);
     }
 
@@ -112,10 +113,80 @@
 /* @media (min-width: 425px) {} */
 
 /* lg  */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+    .about-right {
+        width: 60%;
+        margin-left: 200px;
+    }
+
+    .about-right h1 {
+        font-size: var(--size-2xl);
+    }
+
+    .about-right p {
+        font-size: var(--size-xs);
+    }
+
+    .about-input {
+        padding: .5rem 1.7rem;
+        font-size: var(--size-xs);
+    }
+
+    .about-button {
+        font-weight: 600;
+        font-size: var(--size-xs);
+    }
+}
 
 /* xl  */
-/* @media (min-width: 1024px) {} */
+@media (min-width: 1024px) {
+    .about-right {
+        width: 50%;
+        margin-left: 275px;
+    }
+
+    .about-right h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .about-right p {
+        font-size: var(--size-sm);
+    }
+
+    .about-input {
+        padding: .5rem .8rem;
+        font-size: var(--size-sm);
+    }
+
+    .about-button {
+        font-weight: 600;
+        font-size: var(--size-sm);
+    }
+}
 
 /* 2xl  */
-/* @media (min-width: 1440px) {} */
+@media (min-width: 1440px) {
+    .about-right {
+        width: 40%;
+        margin-left: 475px;
+    }
+
+    .about-right h1 {
+        font-size: var(--size-4xl);
+    }
+
+    .about-right p {
+        font-size: var(--size-base);
+    }
+
+    .about-input {
+        padding: .5rem .2rem;
+        font-size: var(--size-base);
+    }
+
+    .about-button {
+        font-weight: 700;
+        padding: .8rem auto;
+        font-size: var(--size-base);
+    }
+}

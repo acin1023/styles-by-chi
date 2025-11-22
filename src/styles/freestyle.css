@@ -142,7 +142,44 @@
 /* @media (min-width: 425px) {} */
 
 /* lg  */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+
+    .custom-description h1 {
+        font-size: var(--size-xl);
+        padding-top: 0.2rem;
+    }
+
+    .custom-description p {
+        width: 70%;
+        font-size: var(--size-xs);
+        text-align: center;
+    }
+
+    .custom-form-box h2 {
+        font-size: var(--size-xl);
+    }
+
+    .comment-form input {
+        width: 50%;
+        font-size: var(--size-sm);
+    }
+
+    .comment-form textarea {
+        width: 50%;
+        border-radius: 10px;
+        border: none;
+        font-size: var(--size-sm);
+        padding-inline-start: .5rem;
+    }
+
+    .submit-btn {
+        background-color: var(--clr-main);
+        position: relative;
+        left: 38%;
+        font-size: var(--size-sm);
+        padding: .4rem 0;
+    }
+}
 
 /* xl  */
 /* @media (min-width: 1024px) {} */
