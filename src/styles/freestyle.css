@@ -212,22 +212,23 @@
 /* 2xl  */
 @media (min-width: 1440px) {
     .custom-description h1 {
-        font-size: var(--size-3xl);
+        font-size: var(--size-4xl);
     }
 
     .custom-description p {
         text-align: center;
-        width: 70%;
-        font-size: var(--size-base);
+        width: 40%;
+        font-size: var(--size-lg);
+        margin-bottom: 5rem;
     }
 
     .custom-form-box h2 {
-        font-size: var(--size-3xl);
+        font-size: var(--size-4xl);
     }
 
     .comment-form input {
         width: 30%;
-        font-size: var(--size-base);
+        font-size: var(--size-xl);
     }
 
     .comment-form textarea {
@@ -235,13 +236,16 @@
         border-radius: 10px;
         border: none;
         padding-inline-start: .5rem;
+        font-size: var(--size-xl);
+
     }
 
     .submit-btn {
         background-color: var(--clr-main);
         left: 44%;
-        font-size: var(--size-lg);
-        padding: .4rem 0;
+        font-size: var(--size-2xl);
+        padding: .4rem auto;
+        width: 200px;
     }
 
 }

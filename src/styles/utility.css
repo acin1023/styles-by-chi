@@ -101,15 +101,14 @@
 .btn {
     font-weight: 600;
     font-family: "MuseoModerno", sans-serif;
-    letter-spacing: 0.2em;
-    padding: 0.5em 1em;
+
     border-radius: 10px;
     box-shadow: 0 2.5px 8px var(--clr-dark);
     transition: transform 0.3s, box-shadow 0.3s;
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    width: 200px;
+
 }
 
 .btn:hover {

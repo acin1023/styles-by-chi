@@ -148,12 +148,12 @@
 @media (min-width: 1440px) {
 
     .logo-heading {
-        font-size: var(--size-2xl);
+        font-size: var(--size-4xl);
 
     }
 
     .logo-header {
-        width: 45px;
+        width: 60px;
     }
 
     .nav-list {
@@ -163,5 +163,6 @@
 
     .hero-button {
         font-size: var(--size-lg);
+        width: 210px;
     }
 }
