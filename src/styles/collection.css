@@ -32,6 +32,7 @@
     text-align: center;
     width: 100%;
     height: 100dvh;
+    background-color: rgb(249, 244, 244);
 }
 
 
@@ -39,18 +40,57 @@
     margin-top: 4rem;
 }
 
-.shop-page p {
-    width: 50%;
-    margin: 2rem auto;
-}
+
 
 .dress-container {
     border: 5px solid pink;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 450px)); */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 250px));
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    width: 100%;
+}
 
+.dress-card {
+    border: 5px solid blue;
+}
+
+.dress-card img {
+    border: 5px solid limegreen;
+    cursor: pointer;
+}
+
+.dress-card img:hover {
+    transform: translateY(-.8rem);
+    isolation: isolate;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 1px 1px 15px var(--clr-main);
+}
+
+.dress-content {
+    border: 5px solid yellow;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    text-align: center;
 
 }
+
+.dress-content p {
+    border: 5px solid palegreen;
+}
+
+.dress-button {
+    background-color: var(--clr-secondary);
+    color: var(--clr-light);
+    text-decoration: none;
+    padding: .3rem;
+    width: 200px;
+}
+
+
 
 
 /* Responsive Resizing */

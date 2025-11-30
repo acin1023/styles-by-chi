@@ -91,10 +91,11 @@
 @media (min-width: 320px) {
     .custom-description h1 {
         font-size: var(--size-base);
+        margin-bottom: 1rem;
     }
 
     .custom-description p {
-        width: 99%;
+        width: 100%;
         margin: auto;
         font-size: var(--size-xs);
         text-align: center;
@@ -102,7 +103,8 @@
     }
 
     .custom-form-box h2 {
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
+        margin: 1rem 0;
     }
 
     .custom-form-box {
@@ -111,24 +113,26 @@
     }
 
     .comment-form input {
-        width: 90%;
+        width: 95%;
         border-radius: 10px;
         border: none;
-        font-size: var(--size-xxs);
+        font-size: var(--size-xs);
     }
 
     .comment-form textarea {
-        width: 90%;
+        width: 95%;
         border-radius: 10px;
         border: none;
-        font-size: var(--size-xxs);
+        font-size: var(--size-xs);
         padding-inline-start: .5rem;
+        padding-top: .5rem;
     }
 
     .submit-btn {
-        left: 15%;
+        left: 18%;
         font-size: var(--size-xs);
         padding: .5rem 0;
+        width: 200px;
     }
 }
 
@@ -143,38 +147,40 @@
 
     .custom-description h1 {
         font-size: var(--size-xl);
-        padding-top: 0.2rem;
+        margin-bottom: 1rem;
     }
 
     .custom-description p {
-        width: 70%;
-        font-size: var(--size-xs);
+        width: 80%;
+        font-size: var(--size-sm);
         text-align: center;
+        margin-bottom: .5rem;
     }
 
     .custom-form-box h2 {
         font-size: var(--size-xl);
+        margin-bottom: 1rem;
     }
 
     .comment-form input {
-        width: 50%;
+        width: 60%;
         font-size: var(--size-sm);
     }
 
     .comment-form textarea {
-        width: 50%;
+        width: 60%;
         border-radius: 10px;
         border: none;
         font-size: var(--size-sm);
-        padding-inline-start: .5rem;
+        padding-top: .5rem;
     }
 
     .submit-btn {
         background-color: var(--clr-main);
-        position: relative;
-        left: 38%;
-        font-size: var(--size-sm);
-        padding: .4rem 0;
+        left: 37%;
+        font-size: var(--size-base);
+        padding: .4rem auto;
+        width: 200px;
     }
 }
 
@@ -182,30 +188,40 @@
 @media (min-width: 1024px) {
     .custom-description h1 {
         font-size: var(--size-2xl);
+        margin-bottom: 1rem;
     }
 
     .custom-description p {
-        width: 80%;
-        font-size: var(--size-sm);
+        text-align: center;
+        width: 70%;
+        font-size: var(--size-lg);
+        margin-bottom: .5rem;
     }
 
     .custom-form-box h2 {
-        font-size: var(--size-xl);
+        font-size: var(--size-2xl);
+        margin-bottom: 1rem;
     }
 
     .comment-form input {
         width: 50%;
-        font-size: var(--size-base);
+        font-size: var(--size-lg);
     }
 
     .comment-form textarea {
         width: 50%;
+        border-radius: 10px;
+        border: none;
+        padding-top: .5rem;
+        font-size: var(--size-lg);
     }
 
     .submit-btn {
+        background-color: var(--clr-main);
         left: 40%;
-        font-size: var(--size-sm);
-        padding: .4rem 0;
+        font-size: var(--size-xl);
+        padding: .4rem auto;
+        width: 200px;
     }
 }
 
@@ -213,36 +229,38 @@
 @media (min-width: 1440px) {
     .custom-description h1 {
         font-size: var(--size-4xl);
+        margin-bottom: .5rem;
     }
 
     .custom-description p {
         text-align: center;
-        width: 40%;
+        width: 45%;
         font-size: var(--size-lg);
-        margin-bottom: 5rem;
+        margin-bottom: .5rem;
     }
 
     .custom-form-box h2 {
         font-size: var(--size-4xl);
+        margin-bottom: 1rem;
     }
 
     .comment-form input {
-        width: 30%;
+        width: 40%;
         font-size: var(--size-xl);
     }
 
     .comment-form textarea {
-        width: 30%;
+        width: 40%;
         border-radius: 10px;
         border: none;
-        padding-inline-start: .5rem;
+        padding-top: .5rem;
         font-size: var(--size-xl);
 
     }
 
     .submit-btn {
         background-color: var(--clr-main);
-        left: 44%;
+        left: 42%;
         font-size: var(--size-2xl);
         padding: .4rem auto;
         width: 200px;

@@ -29,7 +29,8 @@
 *,
 *::before,
 *::after {
-
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     line-height: calc(1em + 0.5rem);
 }
@@ -38,8 +39,6 @@ html,
 body {
     scroll-behavior: smooth;
     scroll-padding: 10px;
-    margin: 0;
-    padding: 0;
     height: 100dvh;
     position: relative;
     color: var(--clr-dark);
@@ -65,7 +64,7 @@ picture,
 video,
 canvas,
 svg {
-    display: inline-block;
+    display: block;
     max-width: 100%;
     user-select: none;
 }
