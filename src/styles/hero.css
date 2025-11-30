@@ -68,6 +68,7 @@
 
 /* xs */
 @media (min-width: 320px) {
+
     .logo-heading {
         font-size: var(--size-xs);
 
@@ -197,8 +198,8 @@
     }
 
     .hero-button {
-        font-size: var(--size-2xl);
+        font-size: var(--size-xl);
         width: 250px;
-        height: 3rem;
+        height: 2.6rem;
     }
 }

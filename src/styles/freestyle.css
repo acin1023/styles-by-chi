@@ -142,8 +142,8 @@
 /* md  */
 @media (min-width: 425px) {
     .submit-btn {
-        left: 20%;
-        font-size: var(--size-xs);
+        left: 22%;
+        font-size: var(--size-sm);
         padding: .5rem 0;
         width: 200px;
     }
@@ -269,8 +269,8 @@
         background-color: var(--clr-main);
         left: 42%;
         font-size: var(--size-2xl);
-        padding: .4rem auto;
-        width: 200px;
+        padding: .6rem auto;
+        width: 250px;
     }
 
 }

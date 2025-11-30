@@ -84,28 +84,35 @@
 /* xs */
 @media (min-width: 320px) {
     .about-right {
-        width: 90%;
-        height: 85%;
+        width: 97%;
+        height: 25%;
         margin: auto;
     }
 
     .about-right h1 {
         font-size: var(--size-base);
+        margin-bottom: 1rem;
     }
 
     .about-right p {
         font-size: var(--size-xs);
+
     }
 
     .about-input {
         padding: .4rem .7rem;
-        font-size: var(--size-sm);
+        font-size: var(--size-xs);
+        margin-top: .5rem;
+        margin-bottom: .5rem;
     }
 
     .about-button {
         font-weight: 500;
         padding: .6rem auto;
         font-size: var(--size-xs);
+        width: 170px;
+        height: 1.5rem;
+
     }
 }
 
@@ -113,31 +120,61 @@
 /* @media (min-width: 375px) {} */
 
 /* md  */
-/* @media (min-width: 425px) {} */
-
-/* lg  */
-@media (min-width: 768px) {
+@media (min-width: 425px) {
     .about-right {
-        width: 60%;
-        margin-left: 200px;
+        width: 95%;
     }
 
     .about-right h1 {
-        font-size: var(--size-2xl);
+        font-size: var(--size-xl);
+        margin-bottom: .5rem;
+        /* border: 5px solid aquamarine; */
     }
 
     .about-right p {
         font-size: var(--size-xs);
+
     }
 
     .about-input {
-        padding: .5rem 1.7rem;
-        font-size: var(--size-xs);
+        font-size: var(--size-sm);
     }
 
     .about-button {
-        font-weight: 600;
-        font-size: var(--size-xs);
+        font-size: var(--size-sm);
+        width: 195px;
+        height: 1.8rem;
+
+    }
+}
+
+/* lg  */
+@media (min-width: 768px) {
+    .about-right {
+        width: 70%;
+
+    }
+
+    .about-right h1 {
+        font-size: var(--size-xl);
+    }
+
+    .about-right p {
+        font-size: var(--size-base);
+
+    }
+
+    .about-input {
+        font-size: var(--size-base);
+    }
+
+    .about-button {
+        font-weight: 500;
+        padding: .6rem auto;
+        font-size: var(--size-base);
+        width: 230px;
+        height: 2rem;
+
     }
 }
 
@@ -158,21 +195,21 @@
 
     .about-input {
         padding: .5rem .8rem;
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
     }
 
     .about-button {
         font-weight: 600;
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
     }
 }
 
 /* 2xl  */
 @media (min-width: 1440px) {
     .about-right {
-        width: 45%;
+        width: 55%;
+        margin: auto;
 
-        margin: auto 0 auto 150px;
     }
 
     .about-right h1 {
@@ -185,13 +222,14 @@
 
     .about-input {
         padding: .7rem 0.2em;
-        font-size: var(--size-lg);
+        font-size: var(--size-base);
         width: 210px;
     }
 
     .about-button {
         font-weight: 700;
-        padding: .6rem 2rem;
         font-size: var(--size-xl);
+        width: 210px;
+        height: 2.2rem;
     }
 }
