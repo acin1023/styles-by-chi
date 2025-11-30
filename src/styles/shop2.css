@@ -69,9 +69,10 @@
 }
 
 .items-left {
-    border: 2px solid var(--clr-dark);
+    border: 3px solid var(--clr-dark);
+    background-color: var(--clr-bg);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 315px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 450px));
     gap: 1rem;
     padding: .5rem;
     width: 100%;
@@ -83,9 +84,10 @@
 }
 
 .items-left img {
-    /* border: 5px solid blue; */
+    border: 3px solid var(--clr-dark);
     height: 100%;
     width: 90%;
+    margin: auto;
     display: grid;
     object-fit: cover;
     border-radius: 5px;
