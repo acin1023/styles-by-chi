@@ -140,7 +140,14 @@
 /* @media (min-width: 375px) {} */
 
 /* md  */
-/* @media (min-width: 425px) {} */
+@media (min-width: 425px) {
+    .submit-btn {
+        left: 20%;
+        font-size: var(--size-xs);
+        padding: .5rem 0;
+        width: 200px;
+    }
+}
 
 /* lg  */
 @media (min-width: 768px) {
