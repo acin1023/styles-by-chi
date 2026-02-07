@@ -27,7 +27,7 @@
 }
 
 .nav-container {
-    /* border: 5px solid purple; */
+    border: 5px solid purple;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@
 
 
 .nav-list {
-    /* border: 5px solid green; */
+    border: 5px solid green;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@
 
 
 .items-container {
-    /* border: 5px solid yellow; */
+    border: 5px solid yellow;
     height: 100dvh;
     width: 100%;
     display: grid;
@@ -69,8 +69,8 @@
 }
 
 .items-left {
-    border: 3px solid var(--clr-dark);
-    background-color: var(--clr-bg);
+    border: 3px solid orangered;
+    /* background-color: var(--clr-bg); */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 450px));
     gap: 1rem;
@@ -80,11 +80,10 @@
     justify-content: center;
     align-items: center;
     margin-left: .5rem;
-
 }
 
 .items-left img {
-    border: 3px solid var(--clr-dark);
+    border: 3px solid lightgreen;
     height: 100%;
     width: 90%;
     margin: auto;
@@ -95,7 +94,7 @@
 }
 
 .items-right {
-    /* border: 5px solid orangered; */
+    border: 5px solid orangered;
     display: grid;
     text-align: center;
     justify-content: center;
@@ -104,6 +103,7 @@
 }
 
 .items-right h2 {
+    /* border: 5px solid blue; */
     margin: 0;
 }
 
@@ -111,11 +111,10 @@
     /* border: 5px solid green; */
     width: 70%;
     margin: auto;
-
 }
 
 .images-color {
-    /* border: 5px solid blue; */
+    border: 5px solid blue;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -126,7 +125,7 @@
 }
 
 .images-color img {
-    /* border: 5px solid cyan; */
+    border: 5px solid cyan;
     width: 22%;
     border-radius: 5px;
 }
@@ -155,23 +154,7 @@
 /* Responsive Resizing */
 
 /* xs */
-@media (min-width: 320px) {
-    .logo-container h3 {
-        font-size: var(--size-xxs);
-    }
-
-    .logo-container img {
-        width: 20px;
-    }
-
-
-    .nav-list {
-
-        margin-right: .2rem;
-        font-weight: 400;
-        font-size: var(--size-xxs);
-    }
-}
+/* @media (min-width: 320px) {} */
 
 /* sm  */
 /* @media (min-width: 375px) {} */
@@ -181,34 +164,68 @@
 
 /* lg  */
 @media (min-width: 768px) {
-    .logo-container h3 {
-        font-size: var(--size-base);
-
-    }
-
-    .logo-container img {
-        width: 28px;
-    }
-
-    .nav-list {
-        font-size: var(--size-sm);
-        margin-right: .8rem;
+    .items-right p {
+        /* border: 5px solid green; */
+        width: 90%;
+        margin: auto;
+        font-size: var(--size-xxs);
     }
 }
 
 /* xl  */
 @media (min-width: 1024px) {
-    .logo-container h3 {
-        font-size: var(--size-2xl);
+    .items-right {
+        border: 5px solid orangered;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;
+    }
+
+    .items-right h2 {
+        /* border: 5px solid blue; */
+        margin: 0;
+    }
+
+    .items-right p {
+        /* border: 5px solid green; */
+        width: 70%;
+        margin: auto;
+        font-size: var(--size-xxs);
 
     }
 
-    .logo-container img {
-        width: 36px;
+    .images-color {
+        border: 5px solid blue;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: .2rem;
+
+
     }
 
-    .nav-list {
+    .images-color img {
+        border: 5px solid cyan;
+        width: 22%;
+        border-radius: 5px;
+    }
+
+
+    .images-color img:hover {
+        transform: translateY(-.8rem);
+        isolation: isolate;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 1px 1px 15px var(--clr-main);
+    }
+
+    .freestyle-button {
+        background-color: var(--clr-secondary);
+        color: var(--clr-light);
         font-size: var(--size-lg);
+        border: none;
     }
 }
 
@@ -234,7 +251,7 @@
     .items-right p {
         /* border: 5px solid green; */
         width: 80%;
-        font-size: var(--size-lg);
+        font-size: var(--size-xxs);
 
     }
 }

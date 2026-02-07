@@ -139,7 +139,7 @@
     }
 
     .nav-list {
-        font-size: var(--size-base);
+        font-size: var(--size-sm);
         margin-right: .4rem;
         gap: .5rem;
         letter-spacing: 0;
@@ -179,7 +179,7 @@
 }
 
 /* 2xl  */
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
 
     .logo-heading {
         font-size: var(--size-4xl);
