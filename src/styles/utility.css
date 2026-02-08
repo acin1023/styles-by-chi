@@ -66,19 +66,20 @@
 
 }
 
-.logo-heading {
-    /* border: 2px solid orangered; */
+/* .logo-heading {
+    border: 2px solid orangered;
     font-size: var(--size-2xl);
     font-family: "Mynerve", sans-serif;
-}
+} */
 
+/* 
 .logo-header {
     width: 40px;
-}
+} */
 
 
 .nav-list {
-    border: 5px solid green;
+    /* border: 5px solid green; */
     list-style: none;
     display: flex;
     justify-content: center;
@@ -101,14 +102,12 @@
 .btn {
     font-weight: 600;
     font-family: "MuseoModerno", sans-serif;
-
     border-radius: 10px;
     box-shadow: 0 2.5px 8px var(--clr-dark);
     transition: transform 0.3s, box-shadow 0.3s;
     display: inline-block;
     cursor: pointer;
     text-align: center;
-
 }
 
 .btn:hover {
