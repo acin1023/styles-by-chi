@@ -244,6 +244,10 @@
 /* xl  */
 @media (min-width: 1024px) {
 
+    .items-container {
+        display: grid;
+    }
+
     .items-left {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
